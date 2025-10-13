@@ -1,0 +1,17 @@
+PAPER ACUAN PENELITIAN
+
+Penelitian ini mengacu pada beberapa studi terdahulu yang menggunakan pendekatan deep learning untuk melakukan prediksi harga saham.
+Beberapa paper utama yang dijadikan referensi antara lain:
+
+1. Prediksi Harga Saham Menggunakan Metode Long Short-Term Memory (LSTM) pada Indeks LQ45 (Universitas Brawijaya, 2022).
+   Penelitian ini menggunakan data historis harian saham LQ45 dan menerapkan model LSTM untuk memprediksi harga penutupan. 
+   Model menunjukkan akurasi yang lebih baik dibandingkan model tradisional seperti ARIMA.
+
+2. Penerapan LSTM dan GRU untuk Prediksi Harga Saham BBCA (Universitas ARS, 2023).
+   Studi ini membandingkan dua model recurrent neural network (RNN) yaitu LSTM dan GRU, menunjukkan bahwa LSTM memiliki performa yang lebih stabil terhadap data fluktuatif.
+
+3. Analisis Efektivitas Model LSTM dalam Prediksi Saham Syariah Indonesia (Jurnal Teknologi Informasi, 2023).
+   Penelitian ini berfokus pada efektivitas penggunaan LSTM dengan tuning hyperparameter (batch size, epoch, learning rate) terhadap akurasi prediksi harga saham syariah.
+
+Dari berbagai penelitian tersebut, dapat disimpulkan bahwa model LSTM memiliki keunggulan dalam memahami pola time-series yang kompleks.
+Namun, masih terdapat ruang untuk melakukan analisis efektivitas model dengan memperhatikan aspek performa, stabilitas, dan kecepatan komputasi.

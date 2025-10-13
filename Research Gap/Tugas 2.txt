@@ -1,0 +1,11 @@
+RESEARCH GAP PENELITIAN
+
+Berdasarkan studi literatur yang telah dilakukan, ditemukan beberapa celah penelitian (research gap) sebagai dasar pengembangan penelitian ini:
+
+1. Sebagian besar penelitian sebelumnya hanya fokus pada akurasi prediksi, tanpa mengukur efektivitas model secara komprehensif.
+2. Belum banyak penelitian yang membandingkan hasil model LSTM pada berbagai sektor saham (misalnya sektor perbankan, teknologi, energi) untuk mengetahui perbedaan kinerja.
+3. Penelitian terdahulu sering menggunakan dataset yang terbatas, baik dari sisi waktu (periode pendek) maupun jumlah fitur (hanya harga penutupan).
+4. Pengaruh parameter model (epoch, learning rate, jumlah neuron) terhadap efektivitas hasil prediksi belum banyak dieksplorasi secara sistematis.
+5. Kurangnya pembahasan tentang waktu komputasi dan efisiensi model sebagai salah satu faktor efektivitas sistem prediksi saham.
+
+Dengan mengisi celah tersebut, penelitian ini berupaya untuk menganalisis efektivitas model LSTM tidak hanya dari akurasi, tetapi juga dari efisiensi dan stabilitas hasil prediksi.

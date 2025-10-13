@@ -1,0 +1,24 @@
+METODE PENELITIAN
+
+1. Jenis Penelitian
+   Penelitian ini bersifat kuantitatif dengan pendekatan eksperimental. Tujuan utama adalah menganalisis efektivitas model LSTM dalam memprediksi harga saham berdasarkan data historis.
+
+2. Sumber Data
+   Data diambil dari pasar modal Indonesia (Yahoo Finance) menggunakan dataset historis harga saham harian dari sektor perbankan dan teknologi selama periode 2020-2025.
+
+3. Tahapan Penelitian
+   a. Pengumpulan Data: Mengambil data harga saham (Open, High, Low, Close, Volume) melalui API Yahoo Finance.  
+   b. Pra-pemrosesan Data: Normalisasi, pembentukan window time-series, dan pembagian data menjadi data training dan testing.  
+   c. Penerapan Model: Menggunakan arsitektur LSTM dengan tuning parameter (epoch, batch size, learning rate).  
+   d. Evaluasi Model: Menggunakan metrik evaluasi seperti RMSE, MAPE, dan R² untuk mengukur akurasi.  
+   e. Analisis Efektivitas: Membandingkan performa LSTM dengan model pembanding (ARIMA atau GRU) dan menganalisis efisiensi waktu komputasi.  
+
+4. Perangkat dan Bahasa Pemrograman
+   - Python (TensorFlow/Keras, Pandas, NumPy, Matplotlib)
+   - Jupyter Notebook untuk eksperimen model
+   - Dataset saham Indonesia (Yahoo Finance)
+
+5. Output Penelitian
+   - Model LSTM terlatih untuk prediksi harga saham.
+   - Analisis efektivitas berdasarkan akurasi, stabilitas, dan waktu komputasi.
+   - Rekomendasi penerapan model di dunia keuangan atau sistem pendukung keputusan investasi.
